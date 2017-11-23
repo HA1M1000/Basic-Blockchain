@@ -7,7 +7,7 @@ public class Block
 
 	private int blockHash;
 
-	public Block(int perviousHash,String[] transactions)
+ 	public Block(int perviousHash,String[] transactions) // method to make a block, works by hashing the previous block and using the transaction which holds the info 
 	{
 		this.perviousHash = perviousHash;
 		this.transactions = transactions;
